@@ -16,10 +16,10 @@ const StyledLi = styled.li`
             color: white;
        }
     a:hover{
-        color: purple
+        color: var(--tea-green);
     }
     a:active{
-        color: blue
+        color: var(--eton-blue);
     }
 `
 
