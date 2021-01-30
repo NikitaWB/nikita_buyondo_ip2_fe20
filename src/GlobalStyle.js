@@ -1,10 +1,15 @@
 import { createGlobalStyle } from "styled-components"
 
+
+
 const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap');
   *{
     margin: 0;
     padding: 0;
-    box-sizeing: border-box;
+    box-sizing: border-box;
+
+
 
 /* CSS HEX */
 --tea-green: #c9e4caff;
@@ -20,6 +25,12 @@ const GlobalStyle = createGlobalStyle`
 --indigo-dye: #16425bff;
 --dark-sky-blue: #81c3d7ff;
   }
+  h1, h2, h3{
+      font-family: 'Yusei Magic', sans-serif;
+    }
+    p{
+      font-family: 'Open Sans', sans-serif;
+    }
 `
 
 export default GlobalStyle

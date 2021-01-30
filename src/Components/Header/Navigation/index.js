@@ -11,6 +11,8 @@ const StyledUl = styled.ul`
 const StyledLi = styled.li`
     margin: 15px;
     padding: 10 px;
+    font-family:  'Yusei Magic', sans-serif;
+    text-transform: uppercase;
     
     a:link, a:visited {
             color: white;
