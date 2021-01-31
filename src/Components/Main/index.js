@@ -8,12 +8,8 @@ import styled from 'styled-components'
 
 const StyledMain = styled.main`
 min-height: 74vh;
-display:flex;
-padding: 10px;
+/* padding: 10px; */
 
-  h2{
-    color: var(--deep-space-sparkle)
-  }
 `
 
 function Main() {
