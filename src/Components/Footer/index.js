@@ -6,12 +6,13 @@ background: var(--indigo-dye);
 justify-content: center;
 display: flex;
 color: white;
+padding: 40px;
 `
 
 function Footer() {
     return (
         <StyledFooter>
-          <h2>Footer</h2>  
+          <h2>Made with love by yours truly Nikita "NixiS" Buyondo</h2>
         </StyledFooter>
     )
 }
