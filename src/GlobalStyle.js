@@ -1,5 +1,4 @@
-import { createGlobalStyle } from "styled-components"
-
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -27,10 +26,9 @@ const GlobalStyle = createGlobalStyle`
   h1, h2, h3{
       font-family: 'Yusei Magic', sans-serif;
     }
-    p{
+    p, a{
       font-family: 'Roboto', sans-serif;
     }
-`
+`;
 
-export default GlobalStyle
-
+export default GlobalStyle;
