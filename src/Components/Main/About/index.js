@@ -13,7 +13,6 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     color: theme.palette.text.secondary,
     fontFamily: "Roboto",
-    fontStyle: "FormatBold",
   },
   styledH1: {
     textAlign: "center",
@@ -29,7 +28,7 @@ function About() {
 
   return (
     <div className={classes.root}>
-      <Grid container alignItems="center" justify="space-around" spacing={3}>
+      <Grid container alignItems="center" justify="space-around" spacing={5}>
         <Grid item xs={12}>
           <h1 className={classes.styledH1}>About Me</h1>
         </Grid>
@@ -41,14 +40,14 @@ function About() {
         justify="center"
         spacing={6}
       >
-        <Grid item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} lg={4}>
           <Paper className={classes.paper}>
-            Hi, My name is Nikita Buyondo and I'm a front-end developer.
+            Hi, My name is Nikita Buyondo and I'm a Front-End developer.
             <br></br>
             <br></br>I like to exercise, eat good food and listen to good music.
           </Paper>
         </Grid>
-        <Grid item xs={8} sm={6} lg={3}>
+        <Grid item xs={8} sm={6} lg={4}>
           <img
             src={profileimg}
             className={classes.styledImage}
