@@ -14,7 +14,7 @@ function Footer() {
   return (
     <StyledFooter>
       <h2>
-        Made by yours truly <br></br> Nikita "NixiS" Buyondo
+        Made by yours truly <br></br> Nikita Buyondo
       </h2>
     </StyledFooter>
   );

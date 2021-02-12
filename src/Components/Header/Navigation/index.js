@@ -35,9 +35,6 @@ function Navigation() {
                 <Link to='/about'>About</Link>
             </StyledLi>
             <StyledLi>
-                <Link to='contact'>Contact</Link>
-            </StyledLi>
-            <StyledLi>
                 <Link to='/projects'>Projects</Link>
             </StyledLi>
         </StyledUl>

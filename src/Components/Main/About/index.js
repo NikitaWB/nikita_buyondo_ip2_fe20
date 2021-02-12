@@ -29,7 +29,7 @@ function About() {
 
   return (
     <div className={classes.root}>
-      <Grid container alignItems="center" justify="space-around" spacing={5}>
+      <Grid container alignItems="center" spacing={5}>
         <Grid item xs={12}>
           <h1 className={classes.styledH1}>About Me</h1>
         </Grid>
@@ -39,13 +39,13 @@ function About() {
         alignItems="center"
         alignSelf="center"
         justify="center"
-        spacing={6}
+        spacing={5}
       >
         <Grid item xs={12} sm={6} lg={4}>
           <Paper className={classes.paper}>
             Hi, My name is Nikita Buyondo and I'm a Front-End developer.
             <br></br>
-            <br></br>I like to exercise, eat good food and listen to good music.
+            <br></br>I like to exercise, eat tasty food and listen to good music.
           </Paper>
         </Grid>
         <Grid item xs={8} sm={6} lg={4}>

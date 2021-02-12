@@ -5,8 +5,6 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  /*   width: 100%; */
-
 
 
 /* CSS HEX */
@@ -28,6 +26,20 @@ const GlobalStyle = createGlobalStyle`
     }
     p, a{
       font-family: 'Roboto', sans-serif;
+    }
+    .github-container{
+      background: #eee;
+      padding: 40px 80px;
+      text-align: center;
+    }
+    a.social{
+      display: inline-block;
+    }
+    a.social :hover{
+      color: #87bba2;
+    }
+    a.github {
+      color: black;
     }
 `;
 
