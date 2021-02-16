@@ -3,12 +3,18 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import GitHub from "./GitHub"
-
+import background from '../../../img/fynn.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     overflow: "hidden",
+    backgroundImage: "url(" + background + ")",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    width: "100%",
+    height: "100vh",
   },
   paper: {
     padding: theme.spacing(2),
@@ -18,6 +24,8 @@ const useStyles = makeStyles((theme) => ({
   },
   styledH1: {
     textAlign: "center",
+    color: "white",
+    padding: "30px 0px",
   },
 }));
 
